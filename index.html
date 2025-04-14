@@ -1,45 +1,74 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>レスポンシブレイアウト</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: sans-serif;
-    }
-
-    /* デフォルト（モバイル） */
-    .container {
-      background-color: lightblue;
-      padding: 20px;
-    }
-
-    .item {
-      margin-bottom: 10px;
-    }
-
-    /* パソコン向け（画面幅が768px以上のとき） */
-    @media (min-width: 768px) {
-      .container {
-        background-color: lightgreen;
-        display: flex;
-        justify-content: space-around;
-      }
-
-      .item {
-        margin-bottom: 0;
-        width: 30%;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>BLUE THUNDERS CHEERLEADERS</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .member {
+            width: 150px;
+        }
+        .member img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .member p {
+            margin-top: 8px;
+            font-weight: bold;
+        }
+        .header, .group-photo {
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <div class="item">アイテム1</div>
-    <div class="item">アイテム2</div>
-    <div class="item">アイテム3</div>
-  </div>
+
+    <!-- タイトルロゴ -->
+    <div class="header">
+        <img src="logo.png" alt="タイトルロゴ">
+    </div>
+
+    <!-- 集合写真 -->
+    <div class="group-photo">
+        <img src="group.jpg" alt="集合写真">
+    </div>
+
+    <!-- メンバー写真 -->
+    <div class="members">
+        <!-- MAYA -->
+        <div class="member">
+            <a href="member1.html">
+                <img src="member1.jpg" alt="メンバー1">
+                <p>MAYA</p>
+            </a>
+        </div>
+        <!-- メンバー2 -->
+        <div class="member">
+            <a href="member2.html">
+                <img src="member2.jpg" alt="メンバー2">
+                <p>HARUKA</p>
+            </a>
+        </div>
+        <!-- メンバー3〜13も同じ形式で増やしてね！ -->
+    </div>
+
 </body>
 </html>
