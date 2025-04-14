@@ -1,12 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <title>なとぅーみのホームページ</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>レスポンシブレイアウト</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    /* デフォルト（モバイル） */
+    .container {
+      background-color: lightblue;
+      padding: 20px;
+    }
+
+    .item {
+      margin-bottom: 10px;
+    }
+
+    /* パソコン向け（画面幅が768px以上のとき） */
+    @media (min-width: 768px) {
+      .container {
+        background-color: lightgreen;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .item {
+        margin-bottom: 0;
+        width: 30%;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>ようこそ！</h1>
-    <p>これは私の初めてのホームページです！</p>
+  <div class="container">
+    <div class="item">アイテム1</div>
+    <div class="item">アイテム2</div>
+    <div class="item">アイテム3</div>
+  </div>
 </body>
 </html>
-<meta charset="UTF-8">
