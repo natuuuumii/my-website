@@ -1,0 +1,91 @@
+ /* デフォルト */
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            margin: 0 auto;
+            padding: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .member {
+            width: 90px;
+        }
+        .member img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .member p {
+            margin-top: 8px;
+            font-weight: bold;
+        }
+        .member p1 {
+            margin-top: 1px;
+            font-size: 10px; 
+            color: #c0c0c0;
+        }
+        .header, .group-photo {
+            margin-bottom: 10px;
+        }
+        .title-member img{
+            display: flex;
+            justify-content: flex-start;
+            width: 40%;
+        }
+        
+        /* フッター */
+        
+        .footer {
+            background: #003F8E;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .social-icons {
+            margin-bottom: 20px;
+        }
+
+        .social-icons a {
+            color: #fff;
+            margin: 0 15px;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #1da1f2; 
+        }
+
+        .footer-text {
+            font-size: 14px;
+            color: #aaa;
+        }
+        
+ /* パソコン向け（画面幅が768px以上のとき） */
+    @media (min-width: 768px) {
+        
+        body {
+            width: 1125px;
+            font-family: sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            margin: 0 auto;
+            padding: 0;
+            }
+
+        .member {
+            width: 135px;
+        }
+        
+        }
