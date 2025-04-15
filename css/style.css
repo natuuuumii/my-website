@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
  /* デフォルト */
         body {
             font-family: sans-serif;
@@ -45,6 +47,38 @@
             justify-content: flex-start;
             width: 40%;
         }
+        
+        /* メンバーセクションのタイトル */
+        .section-title {
+            font-family: 'Playfair+Display', serif;
+            font-size: 2rem;
+            color: #333;
+            text-align: center;
+            position: relative;
+            margin: 40px 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+       }
+
+        .section-title::before,
+        .section-title::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 60px;
+            height: 2px;
+            background-color: #333;
+       }
+
+        .section-title::before {
+            left: 0;
+            transform: translateX(-120%);
+       }
+
+        .section-title::after {
+            right: 0;
+            transform: translateX(120%);
+       }
         
         
         /* ヘッダー */
