@@ -10,6 +10,11 @@
             max-width: 100%;
             height: auto;
         }
+        .header, .group-photo {
+            margin-bottom: 10px;
+        }
+        
+        /* ÉÅÉìÉoÅ[ */
         .members {
             display: flex;
             flex-wrap: wrap;
@@ -28,14 +33,12 @@
         .member p {
             margin-top: 8px;
             font-weight: bold;
+            color: #243250
         }
         .member p1 {
             margin-top: 1px;
             font-size: 10px; 
             color: #c0c0c0;
-        }
-        .header, .group-photo {
-            margin-bottom: 10px;
         }
         .title-member img{
             display: flex;
