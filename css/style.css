@@ -50,35 +50,24 @@
         
         /* メンバーセクションのタイトル */
         .section-title {
-            font-family: 'Playfair+Display', serif;
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
             font-size: 2rem;
             color: #333;
-            text-align: center;
+            text-align: left;
             position: relative;
-            margin: 40px 0;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-       }
-
-        .section-title::before,
-        .section-title::after {
-            content: "";
-            position: absolute;
-            top: 50%;
-            width: 60px;
-            height: 2px;
-            background-color: #333;
-       }
-
-        .section-title::before {
-            left: 0;
-            transform: translateX(-120%);
-       }
-
-        .section-title::after {
-            right: 0;
-            transform: translateX(120%);
-       }
+            padding-bottom: 0.5em;
+            margin-bottom: 1.5em;
+            border-bottom: 2px solid #333;
+        }
+        .section-title .en {
+            font-size: 1.2em;
+            margin-right: 0.5em;
+        }
+        .section-title .jp {
+            font-size: 0.9em;
+            color: #666;
+        }
         
         
         /* ヘッダー */
