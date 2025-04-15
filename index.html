@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
     <title>BLUE THUNDERS CHEERLEADERS</title>
     
     <style>
@@ -50,6 +52,32 @@
             display: flex;
             justify-content: flex-start;
             width: 40%;
+        }
+        .footer {
+            background: #111;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .social-icons {
+            margin-bottom: 20px;
+        }
+
+        .social-icons a {
+            color: #fff;
+            margin: 0 15px;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #1da1f2; /* Twitterブルーっぽく */
+        }
+
+        .footer-text {
+            font-size: 14px;
+            color: #aaa;
         }
         
  /* パソコン向け（画面幅が768px以上のとき） */
@@ -214,5 +242,17 @@
         
     </div>
 
+    <!-- フッターSNSセクション -->
+　　<footer class="footer">
+  　    <div class="social-icons">
+            <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com/yourusername" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://youtube.com/@yourusername" target="_blank"><i class="fab fa-youtube"></i></a>
+    　 </div>
+          <p class="footer-text">&copy; 2025 BLUE THUNDERS CHEERLEADERS. All rights reserved.</p>
+    </footer>
+
+    
 </body>
 </html>
