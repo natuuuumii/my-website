@@ -59,7 +59,7 @@
             position: relative;
             padding-left: 1rem; /* 左にスペースを追加 */
             padding-bottom: 0.5em;
-            margin-bottom: 1.5em;
+            margin-bottom: 0.5em;
             border-bottom: 2px solid #333;
         }
         .section-title .en {
