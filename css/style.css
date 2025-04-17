@@ -48,7 +48,7 @@
             width: 40%;
         }
         
-        /* メンバーセクションのタイトル */
+        /* チーム・メンバーセクションのタイトル */
         .section-title {
             font-family: 'Playfair Display', serif;
             font-weight: 600;
@@ -71,23 +71,15 @@
         }
         
         /* チーム紹介 */
-        .philosophy-section {
-            padding: 40px 20px;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-
         .section-title {
             font-size: 24px;
             margin-bottom: 16px;
         }
-
         .philosophy-text {
             font-size: 16px;
             line-height: 1.8;
             margin-bottom: 30px;
         }
-
         .activity-list {
             list-style: none;
             padding: 0;
@@ -95,7 +87,6 @@
             line-height: 2;
         }
 
-        
         
         /* ヘッダー */
         
