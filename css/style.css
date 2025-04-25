@@ -21,7 +21,7 @@
         .members {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 20px 16px;
+            padding: 20px 1rem;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -54,17 +54,16 @@
         
         /* チーム・メンバーセクションのタイトル */
         .section-title {
-            max-width: 100%;
-            width: 100%; /* 画面幅に合わせる */
-            padding: 0 16px;
-            margin: 0 auto 0.5em auto;
-            box-sizing: border-box;
-            text-align: left;
             font-family: 'Playfair Display', serif;
             font-weight: 600;
-            font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+            font-size: 2rem; 
             color: #333;
+            text-align: left;
+            padding: 0 1rem 0.5em 1rem;
+            margin: 0 auto 0.5em auto;
             border-bottom: 2px solid #333;
+            max-width: 1200px;
+            box-sizing: border-box;
         }
         .section-title .en {
             font-size: 1.2em;
@@ -80,7 +79,7 @@
             width: 100%;
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 16px;
+            padding: 0 1rem;
             box-sizing: border-box;
         }
         
