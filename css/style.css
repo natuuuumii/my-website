@@ -71,6 +71,15 @@
             color: #666;
         }
         
+        .team-section,
+        .member-section {
+    width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 16px; /* スマホで少し余白がある感じに */
+            box-sizing: border-box;
+        }
+        
         /* チーム紹介 */
         .philosophy-section {
             padding: 5px 20px;
@@ -162,7 +171,7 @@
     @media (min-width: 768px) {
         
         body {
-            width: 1125px;
+            width: 1200px;
             font-family: sans-serif;
             text-align: center;
             background-color: #f9f9f9;
