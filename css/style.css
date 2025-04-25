@@ -57,10 +57,13 @@
             color: #333;
             text-align: left;
             position: relative;
-            padding-left: 1rem; /* 左にスペースを追加 */
+            padding-left: 1rem;
             padding-bottom: 0.5em;
-            margin-bottom: 0.5em;
+            margin: 0 auto 0.5em auto;
             border-bottom: 2px solid #333;
+            max-width: 1200px;
+            box-sizing: border-box;
+            padding-right: 1rem;
         }
         .section-title .en {
             font-size: 1.2em;
@@ -72,11 +75,11 @@
         }
         
         .team-section,
-        .member-section {
-    width: 100%;
+            .member-section {
+            width: 100%;
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 16px; /* スマホで少し余白がある感じに */
+            padding: 0 16px;
             box-sizing: border-box;
         }
         
